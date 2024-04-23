@@ -1,0 +1,33 @@
+/* Swipper.css */
+/* Positioning the arrow buttons */
+.swiper-slide-img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide-img img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 30px;
+}
+
+.slick-next {
+  right: 30px;
+}
+
+.arrow-icon {
+  font-size: 34px !important;
+}
